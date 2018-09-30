@@ -86,6 +86,9 @@ namespace BookShopManagementSystem.Forms
         private void SalebooksButton_Click(object sender, EventArgs e)
         {
             MoveSidePanel(salebooksButton);
+            UC_Sales uC_Sales = new UC_Sales();
+            AddControlsPanel(uC_Sales);
+
         }
 
         private void PurchaseButton_Click(object sender, EventArgs e)
